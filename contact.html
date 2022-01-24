@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger Valley</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="topnav" id="dropdownClick">
+        <img
+          src="images/logo.png"
+          alt="Background images"
+          class="section1Logo"
+        />
+        <li><a href="contact.html">contact</a></li>
+        <li><a href="index.html">about</a></li>
+        <li><a href="index.html">promo</a></li>
+        <li><a href="pro.html">product</a></li>
+        <li><a href="index.html">home</a></li>
+        <!-- we are telling the browser for having a javascript command here and path you are going is undefined so stay here-->
+        <li class="dropdownIcon">
+          <a href="javascript:void(0);" onclick="dropdownMenu()">&#9776; </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- .......................contact page section#1................. -->
+    <div class="container">
+      <form>
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Full Name</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Phone Number</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Phone Number.."
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="country">City</label>
+          </div>
+          <div class="col-75">
+            <select id="city" name="city">
+              <option>Lahore</option>
+              <option>Islamabad</option>
+              <option>Faislabad</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Review</label>
+          </div>
+          <div class="col-75">
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 200px"
+            ></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+    <!-- .....................contact page section#2..................... -->
+    <div class="background">
+      <div class="sec8">
+        <h1 class="updateHeading">Don't miss Our Updates</h1>
+        <p class="paragraphs">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+          ducimus a, eaque quas dignissimos debitis? Enim asperiores dolorem
+          quibusdam amet sapiente, aspernatur assumenda.
+        </p>
+        <div class="updateBox">
+          <input type="email" placeholder="YOUR EMAIL" />
+          <button type="submit" class="subButton">Subscribe</button>
+        </div>
+      </div>
+    </div>
+    <!-- .........................FOOTER....................... -->
+    <footer>
+      <div class="row">
+        <div class="col">
+          <h2>
+            Burger Valley
+            <div class="underline"><span></span></div>
+          </h2>
+          <p class="keypoint">Feeling Hungry ?</p>
+          <p>You are on the right place ...</p>
+
+          <div class="icons">
+            <button><img src="./images/fb.svg" alt="fb" /></button>
+            <button><img src="./images/twitter.svg" alt="twitter" /></button>
+            <button><img src="./images/insta.svg" alt="insta" /></button>
+          </div>
+        </div>
+        <div class="col">
+          <h2>
+            About
+            <div class="underline"><span></span></div>
+          </h2>
+          <ul>
+            <li><a href="">History</a></li>
+            <li><a href="">our team</a></li>
+            <li><a href="">brand guidlines</a></li>
+            <li><a href="">terms & conditions</a></li>
+            <li><a href="">privacy policy</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h2>
+            Services
+            <div class="underline"><span></span></div>
+          </h2>
+          <ul>
+            <li><a href="">how to order</a></li>
+            <li><a href="">our product</a></li>
+            <li><a href="">order status</a></li>
+            <li><a href="">promo</a></li>
+            <li><a href="">payment method</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h2>
+            Other
+            <div class="underline"><span></span></div>
+          </h2>
+          <ul>
+            <li><a href="">contact us</a></li>
+            <li><a href="">help</a></li>
+            <li><a href="">privacy</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function dropdownMenu() {
+        var x = document.getElementById("dropdownClick");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+          //change topnav to topnav responsive
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>

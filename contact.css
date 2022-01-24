@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+/* ............nav bar............ */
+nav {
+  width: 100%;
+  margin: 0;
+}
+.section1Logo {
+  margin-left: 60px;
+}
+nav ul {
+  background-color: black;
+  overflow: hidden;
+  padding: 20px 40px 0 0;
+  margin: 0;
+}
+ul.topnav li {
+  list-style: none;
+  float: right;
+}
+ul.topnav li a {
+  display: block;
+  text-decoration: none;
+  /* we can use font size here but for responsiveness we are using min height  */
+  min-height: 18px;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: bold;
+  padding: 24px;
+  text-transform: uppercase;
+
+  color: #fff;
+}
+ul.topnav li a:hover {
+  color: #f64b3c;
+}
+ul.topnav li.dropdownIcon {
+  display: none;
+}
+/* ........................contact page secion#1........... */
+/* Style inputs, select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: #fff;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #fff;
+  color: #f64b3c;
+  font-size: 18px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #f64b3c;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* ........................contact page section#2................ */
+
+.background {
+  background: url("/images/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.sec8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  color: #f64b3c;
+  padding-top: 15%;
+}
+.paragraphs {
+  margin: auto;
+  width: 50%;
+  padding-top: 20px;
+}
+.updateBox {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 20%;
+}
+.updateBox input[type="email"] {
+  border: 2px solid #f64b3c;
+  border-radius: 15px 0 0 15px;
+  background-color: #fff;
+  padding: 3px;
+  font-size: 15px;
+  padding: 8px;
+  width: 300px;
+}
+.updateBox button {
+  color: #fff;
+  background-color: #f64b3c;
+  border: none;
+  border-radius: 0 15px 15px 0;
+  padding: 0px 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+/* .................FOOTER.............. */
+footer {
+  width: 100%;
+  background-color: #1b1b1b;
+  color: #fff;
+  padding: 100px 0 30px;
+  font-size: 13px;
+  line-height: 20px;
+}
+.row {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+footer .col {
+  flex-basis: 20%;
+  padding: 10px;
+}
+footer .col h2 {
+  margin-bottom: 40px;
+  text-transform: capitalize;
+  position: relative;
+  width: fit-content;
+}
+.icons {
+  margin-top: 35px;
+}
+.icons img {
+  height: 30px;
+  align-items: center;
+}
+.icons button {
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+footer ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+footer ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+}
+.underline {
+  width: 100%;
+  height: 5px;
+  background-color: #767676;
+  border-radius: 3px;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  overflow: hidden;
+}
+ul {
+  margin: 0;
+  padding: 0px;
+}
+.underline span {
+  width: 15px;
+  height: 100%;
+  background: #fff;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 2s linear infinite;
+}
+@keyframes moving {
+  0% {
+    left: -20px;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .row {
+    justify-content: stretch;
+  }
+  footer .col {
+    flex-basis: 40%;
+  }
+
+  footer .col:nth-child(1) {
+    flex-basis: 40%;
+  }
+  .icons img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+/* ........................mobile........... ..........*/
+@media screen and (max-width: 600px) {
+  /* .........responsive navbar.......... */
+  .section1Logo {
+    margin-left: 10px;
+    height: 50px;
+  }
+  ul.topnav li:not(:nth-child(1)) {
+    display: none;
+  }
+  ul.topnav li.dropdownIcon {
+    display: block;
+    float: right;
+  }
+  ul.topnav.responsive li.dropdownIcon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  ul.topnav.responsive {
+    position: relative;
+  }
+  ul.topnav.responsive li {
+    display: inline;
+    float: none;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+  /* ..........section#1........ */
+
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* .........section#2........ */
+  .col {
+    width: 100%;
+  }
+  .updateHeading {
+    font-size: 22px;
+  }
+  .paragraphs {
+    width: 70%;
+  }
+  .updateBox input[type="email"] {
+    border-radius: 15px 0 0 15px;
+    background-color: #fff;
+    padding: 3px;
+    font-size: 12px;
+    padding: 8px;
+    width: 150px;
+  }
+  .updateBox button {
+    padding: 0px 10px;
+    font-size: 12px;
+  }
+  /* ...........FOOTER........ */
+  footer {
+    bottom: unset;
+  }
+  footer .col {
+    flex-basis: 100%;
+  }
+  footer .col:nth-child(1) {
+    flex-basis: 100%;
+  }
+  .icons img {
+    width: 25px;
+    height: 25px;
+  }
+}

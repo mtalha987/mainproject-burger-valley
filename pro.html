@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger Valley</title>
+    <link rel="stylesheet" href="pro.css" />
+  </head>
+  <body>
+    <!-- .................nav................. -->
+
+    <nav>
+      <ul class="topnav" id="dropdownClick">
+        <img
+          src="images/logo.png"
+          alt="Background images"
+          class="section1Logo"
+        />
+        <li><a href="contact.html">contact</a></li>
+        <li><a href="index.html">about</a></li>
+        <li><a href="index.html">promo</a></li>
+        <li><a href="pro.html">product</a></li>
+        <li><a href="index.html">home</a></li>
+
+        <!-- we are telling the browser for having a javascript command here and path you are going is undefined so stay here-->
+        <li class="dropdownIcon">
+          <a href="javascript:void(0);" onclick="dropdownMenu()">&#9776; </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- ..............section#1............. -->
+    <div class="background">
+      <div class="pro2">
+        <div class="productInner">
+          <div class="productContent">
+            <h1>Classic Burger</h1>
+            <p>
+              The best burgers offer a combination of tastes and textures. Its a
+              meal guaranteed to get every member of the family smiling
+            </p>
+            <button type="submit">ORDER NOW</button>
+          </div>
+          <div class="productImg">
+            <img src="./Images/n.jpg" alt="product img" />
+            <h3>Rs. 550</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- .............section2......... -->
+    <div class="product">
+      <div class="productInner">
+        <div class="productImg">
+          <img src="./Images/burg.jpg" alt="product img" />
+          <h3>Rs. 550</h3>
+        </div>
+        <div class="productContent">
+          <h1>Spicy Garlic Burger</h1>
+          <p>
+            The best burgers offer a combination of tastes and textures. Its a
+            meal guaranteed to get every member of the family smiling
+          </p>
+
+          <button type="submit">ORDER NOW</button>
+        </div>
+      </div>
+    </div>
+    <!-- ..............SECTION#3 ............... -->
+    <div class="background">
+      <div class="pro2">
+        <div class="productInner">
+          <div class="productContent">
+            <h1>Chicken Burger</h1>
+            <p>
+              The best burgers offer a combination of tastes and textures. Its a
+              meal guaranteed to get every member of the family smiling
+            </p>
+            <button type="submit">ORDER NOW</button>
+          </div>
+          <div class="productImg">
+            <img src="./Images/chic.jpg" alt="product img" />
+            <h3>Rs. 550</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ...............section4............ -->
+    <div class="product">
+      <div class="productInner">
+        <div class="productImg">
+          <img src="./Images/burger1.png" alt="product img" />
+          <h3>Rs. 550</h3>
+        </div>
+        <div class="productContent">
+          <h1>Best Burger</h1>
+          <p>
+            The best burgers offer a combination of tastes and textures. Its a
+            meal guaranteed to get every member of the family smiling
+          </p>
+
+          <button type="submit">ORDER NOW</button>
+        </div>
+      </div>
+    </div>
+
+    <!--.............SECTION#3 ENDS HERE............  -->
+
+    <!-- ...............SECTION#4.................... -->
+    <div class="background">
+      <div class="pro2">
+        <div class="productInner">
+          <div class="productContent">
+            <h1>Big Burger</h1>
+            <p>
+              The best burgers offer a combination of tastes and textures. Its a
+              meal guaranteed to get every member of the family smiling
+            </p>
+            <button type="submit">ORDER NOW</button>
+          </div>
+          <div class="productImg">
+            <img src="./Images/burger2.png" alt="product img" />
+            <h3>Rs. 550</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- .............section#4 ends here........... -->
+    <!-- .........................FOOTER....................... -->
+    <footer>
+      <div class="row">
+        <div class="col">
+          <h2>
+            Burger Valley
+            <div class="underline"><span></span></div>
+          </h2>
+          <p class="keypoint">Feeling Hungry ?</p>
+          <p class="keypoint">You are on the right place ...</p>
+
+          <div class="icons">
+            <span><img src="./images/fb.svg" alt="fb" /></span>
+            <img src="./images/twitter.svg" alt="twitter" />
+            <img src="./images/insta.svg" alt="insta" />
+          </div>
+        </div>
+        <div class="col">
+          <h2>
+            About
+            <div class="underline"><span></span></div>
+          </h2>
+          <ul>
+            <li><a href="">History</a></li>
+            <li><a href="">our team</a></li>
+            <li><a href="">brand guidlines</a></li>
+            <li><a href="">terms & conditions</a></li>
+            <li><a href="">privacy policy</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h2>
+            Services
+            <div class="underline"><span></span></div>
+          </h2>
+          <ul>
+            <li><a href="">how to order</a></li>
+            <li><a href="">our product</a></li>
+            <li><a href="">order status</a></li>
+            <li><a href="">promo</a></li>
+            <li><a href="">payment method</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h2>
+            Other
+            <div class="underline"><span></span></div>
+          </h2>
+          <ul>
+            <li><a href="">contact us</a></li>
+            <li><a href="">help</a></li>
+            <li><a href="">privacy</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script>
+      function dropdownMenu() {
+        var x = document.getElementById("dropdownClick");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+          //change topnav to topnav responsive
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>

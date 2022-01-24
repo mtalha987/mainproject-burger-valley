@@ -1,0 +1,827 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+/* .........................HEADER SECTION.............................. */
+.section1 {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+    ),
+    url("./Images/section1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+/* .............NAVBAR.......... */
+nav {
+  width: 100%;
+}
+.section1Logo {
+  margin-left: 60px;
+}
+nav ul {
+  /* background-color: black; */
+  overflow: hidden;
+  padding: 20px 40px 0 0;
+  margin: 0;
+}
+ul.topnav li {
+  list-style: none;
+  float: right;
+}
+ul.topnav li a {
+  display: block;
+  text-decoration: none;
+  min-height: 18px;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: bold;
+  padding: 24px;
+  text-transform: uppercase;
+
+  color: #fff;
+}
+ul.topnav li a:hover {
+  color: #f64b3c;
+
+}
+ul.topnav li.dropdownIcon {
+  display: none;
+}
+/* .............SECTION#1.......... */
+.section1Text1 {
+  font-weight: bold;
+  line-height: 1.1;
+  font-size: 68px;
+  text-transform: capitalize;
+  max-width: 38%;
+  color: white;
+  margin-top: 95px;
+  margin-left: 60px;
+}
+.section1Text2 {
+  width: 38%;
+  font-style: italic;
+  line-height: 1.5;
+  font-size: 20px;
+  color: white;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+.section1Button {
+  margin-left: 60px;
+  margin-top: 40px;
+  padding-bottom: 200px;
+}
+button {
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(246, 75, 60);
+  width: 250px;
+  border: none;
+  border-radius: 30px;
+}
+button:hover {
+  background-color: black;
+  color: rgb(246, 75, 60);
+  box-shadow: 3px 3px 0px rgb(41, 39, 39);
+  letter-spacing: 3px;
+}
+/* ........................sECTION#2............................... */
+h1 {
+  font-weight: bold;
+  font-size: 68px;
+  margin: 0px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  padding-top: 50px;
+}
+p {
+  font-size: 18px;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding-top: 20px;
+}
+.background {
+  background: url("Images/background\ shapes.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.section2 {
+  color: rgb(246, 75, 60);
+}
+
+.chefName {
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.sec2Chef {
+  width: 100%;
+  padding-bottom: 70px;
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.col {
+  width: 25%;
+}
+div.individuals {
+  padding-top: 3em;
+}
+.pic {
+  text-align: center;
+  width: 100%;
+}
+.pic:hover img {
+  transform: scale(0.9);
+}
+.name {
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.individuals p {
+  padding-top: 12px;
+}
+/* ...................SECTION#2 ENDS HERE................. */
+/* .........................SECTION#3..................... */
+.product {
+  background-color: #f64b3c;
+  width: 100%;
+  color: #fff;
+}
+.productInner {
+  width: 90%;
+  display: flex;
+  padding: 60px 0 60px 0;
+}
+.productImg {
+  padding-left: 90px;
+}
+.productImg img {
+  border-radius: 50%;
+  height: 400px;
+}
+.productContent {
+  width: 700px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.productContent h1 {
+  text-align: left;
+}
+.productContent p {
+  text-align: left;
+  width: 100%;
+  padding-top: 30px;
+}
+.productContent button {
+  background-color: #fff;
+  color: rgb(246, 75, 60);
+  margin-top: 50px;
+}
+.product h3 {
+  background: rgb(246, 75, 60);
+  color: #fff;
+  border: 2px dotted #fff;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+}
+/* ............section#4.......... */
+.pro2 {
+  color: rgb(246, 75, 60);
+}
+.pro2 button {
+  background: rgb(246, 75, 60);
+  color: #fff;
+}
+.pro2 h3 {
+  background: #fff;
+  color: #f64b3c;
+  border: 2px dotted #f64b3c;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+}
+/* .............section5............ */
+.statistics {
+  background: rgb(246, 75, 60);
+  color: #fff;
+  padding: 3rem 7%;
+}
+.inner-statitics {
+  flex: 1 1 300px;
+}
+.main-statistics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  gap: 15px;
+}
+.stat-content {
+  width: 300px;
+  height: 300px;
+  border: 7px solid white;
+  border-radius: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: column;
+}
+.stat-content:hover {
+  background: #fff;
+  color: #f64b3c;
+  border: 7px dashed #f64b3c;
+}
+
+/* .............section7.............. */
+.section7 {
+  background-image: url("images/Shape2.png");
+  /* height: 800px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+.section7img {
+  background-image: url("images/Shape.png");
+  background-size: cover;
+  /* height: 800px; */
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+.section7img p {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Archivo";
+  line-height: 1.2;
+  padding-top: 300px;
+  width: 40%;
+  margin: 0 auto;
+  font-weight: 800;
+}
+
+.barrey {
+  color: white;
+  font-size: 28px;
+  font-family: "Archivo";
+  line-height: 1.2;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+/* ..............................TABLET VIEW...................... */
+@media screen and ( max-width: 768px) {
+  /* .........responsive navbar.......... */
+  .section1Logo {
+    margin-left: 10px;
+    padding-top: 10px;
+    height: 50px;
+  }
+  nav ul {
+    padding: 0px 40px 0 0;
+    margin: 0;
+  }
+  ul.topnav li:not(:nth-child(1)) {
+    display: none;
+  }
+  ul.topnav li.dropdownIcon {
+    display: block;
+    float: right;
+  }
+  ul.topnav.responsive li.dropdownIcon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  ul.topnav.responsive {
+    position: relative;
+  }
+  ul.topnav.responsive li {
+    display: inline;
+    float: none;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+    padding: 10px;
+    background-color: rgb(246, 75, 60);
+  }
+  ul.topnav li a:hover {
+    background-color: black;
+    color: #fff;
+  }
+
+  /* ................HEADER SECTION........... */
+  .section1Text1 {
+    font-size: 38px;
+    max-width: 40%;
+    margin-top: 30px;
+  }
+  .section1Text2 {
+    width: 40%;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .section1Button {
+    margin-top: 15px;
+    padding-bottom: 40px;
+  }
+
+  .section1Button button {
+    padding: 4px;
+    font-weight: lighter;
+    font-size: 14px;
+    width: 120px;
+    border-radius: 30px;
+  }
+  /* ...............SECTION#2.......... */
+  .background {
+    width: 100%;
+    background-size: fit-content;
+    background-position: start;
+  }
+  .col {
+    width: 45%;
+  }
+  div.individuals {
+    padding-top: 7px;
+  }
+  .sec2Chef:nth-child(3) {
+    justify-content: center;
+  }
+  .pic img {
+    width: 170px;
+    padding-top: 7px;
+  }
+  .chefName {
+    font-size: 20px;
+    padding-top: 15px;
+  }
+  /* .........SECTION#3.......... */
+  .productInner {
+    display: block;
+    padding: 40px 0px 40px 0px;
+  }
+  .productInner button {
+    margin-top: 20px;
+    padding: 4px;
+    font-weight: lighter;
+    font-size: 14px;
+    width: 120px;
+  }
+  .productContent h1 {
+    font-size: 38px;
+  }
+  .productContent {
+    margin: 10px;
+    padding-bottom: 10px;
+  }
+  .productContent p {
+    max-width: fit-content;
+  }
+  .productImg {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 0;
+  }
+  .productContent {
+    margin-top: 10px;
+    margin-left: O;
+    width: 500px;
+    padding-left: 0;
+  }
+  /* ...........section7.............. */
+  .section7img p {
+    width: 80%;
+    font-weight: 400;
+    padding-top: 100px;
+  }
+  .barrey {
+    padding-bottom: 100px;
+  }
+}
+/* .........................................MOBILE VIEW........................................... */
+@media screen and (max-width: 320px) {
+  /* .........responsive navbar.......... */
+  ul.topnav.responsive li a {
+    padding: 0px;
+    min-height: 3px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: lighter;
+  }
+
+  /* ................HEADER SECTION........... */
+  .section1Text1 {
+    font-size: 28px;
+    max-width: 70%;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  .section1Text2 {
+    width: 70%;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  .section1Button {
+    margin-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 15px;
+  }
+
+  .section1Button button {
+    padding: 2px;
+    font-weight: lighter;
+    font-size: 10px;
+    width: 90px;
+    border-radius: 30px;
+  }
+  /* ..........SECTION#2......... */
+  .col {
+    width: 100%;
+  }
+  .individuals {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 14px;
+    width: 80%;
+  }
+  /* ............SECTION#3......... */
+  .productImg img {
+    height: 200px;
+  }
+  .productContent {
+    width: 300px;
+  }
+}
+
+/*  */
+
+
+/* .................FOOTER.............. */
+/* .................FOOTER.............. */
+footer {
+  width: 100%;
+  background-color: #1b1b1b;
+  color: #fff;
+  padding: 100px 0 30px;
+  font-size: 13px;
+  line-height: 20px;
+}
+.row {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+footer .col {
+  flex-basis: 20%;
+  padding: 10px;
+}
+footer .col h2 {
+  margin-bottom: 40px;
+  text-transform: capitalize;
+  position: relative;
+  width: fit-content;
+}
+.keypoint {
+  margin: 0;
+  text-align: left;
+  font-weight: lighter;
+  font-size: 14px;
+  padding-top: 0;
+  line-height: 2;
+}
+
+.icons {
+  margin-top: 15px;
+}
+.icons img {
+  height: 30px;
+  align-items: center;
+  background-color: #fff;
+  padding: 2px;
+  border-radius: 50%;
+  border: 2px inset black;
+  margin-right: 7px;
+  margin-top: 0px;
+}
+footer ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+footer ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+}
+.underline {
+  width: 100%;
+  height: 5px;
+  background-color: #767676;
+  border-radius: 3px;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  overflow: hidden;
+}
+ul {
+  margin: 0;
+  padding: 0px;
+}
+.underline span {
+  width: 15px;
+  height: 100%;
+  background: #fff;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 2s linear infinite;
+}
+@keyframes moving {
+  0% {
+    left: -20px;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .row {
+    justify-content: stretch;
+  }
+  footer .col {
+    flex-basis: 40%;
+  }
+
+  footer .col:nth-child(1) {
+    flex-basis: 40%;
+  }
+  .icons img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+/* ..............................TABLET VIEW...................... */
+@media screen and (max-width: 768px) {
+ 
+  /* ...............footer............ */
+  .row {
+    justify-content: stretch;
+  }
+  footer .col {
+    flex-basis: 40%;
+  }
+
+  footer .col:nth-child(1) {
+    flex-basis: 40%;
+  }
+  .icons img {
+    width: 25px;
+    height: 25px;
+  }
+}
+/* .........................................MOBILE VIEW........................................... */
+@media screen and (max-width: 320px) {
+  
+  /* ...................footer............. */
+  footer {
+    bottom: unset;
+  }
+  footer .col {
+    flex-basis: 100%;
+  }
+  footer .col:nth-child(1) {
+    flex-basis: 100%;
+  }
+  .icons img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+
+/* Section 6 CSS BY Juniad LAAL */
+.populer-packages{
+  background: url(images/background\ shape2.png);
+  padding: 4rem 7%;
+  /* height: 100vh; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.populer-packages h1{
+  color: #f64b3c;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 15px;
+  
+}
+.main-populer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 6rem 0;
+  gap: 10px 20px; /* row-gap column gap */
+}
+.inner-populer{
+  flex: 1 1 200px;
+  text-align: center;
+  background: white;
+  /* padding: 3rem 2rem; */
+}
+.inner-populer h2{
+  color: #f64b3c;
+  font-size: 2rem;
+  margin: 1rem 0;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.inner-populer span{
+  font-size: 1.9rem;
+  color: #f64b3c;
+  display: block;
+  font-weight: bolder;
+  margin: .5rem 0;
+}
+.inner-populer p{
+  color: #f64b3c;
+  font-size: 1.1rem;
+  display:inline;
+  margin-bottom: 20px;
+  
+}
+.inner-populer button{
+  padding: 15px 40px;
+  font-size: 16px;
+  background: #f64b3c;
+  color: white;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.inner-populer button:hover{
+  background: black;
+  
+  letter-spacing: 3px;
+}
+
+
+/*  */
+/* ..........sec#8 BY Fazila ......... */
+.sec8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  color: #f64b3c;
+  padding-top: 15%;
+}
+.updateBox {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 20%;
+}
+.updateBox input[type="email"] {
+  border: 2px solid #f64b3c;
+  border-radius: 15px 0 0 15px;
+  background-color: #fff;
+  padding: 3px;
+  font-size: 15px;
+  padding: 8px;
+  width: 300px;
+}
+.updateBox button {
+  color: #fff;
+  background-color: #f64b3c;
+  border: none;
+  border-radius: 0 15px 15px 0;
+  padding: 0px 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  /* .col {
+    width: 100%;
+  }
+  .individuals {
+    display: block;
+    margin: 0;
+    padding: 0;
+  } */
+  .updateBox input[type="email"] {
+    border-radius: 15px 0 0 15px;
+    background-color: #fff;
+    padding: 3px;
+    font-size: 12px;
+    padding: 8px;
+    width: 150px;
+  }
+  .updateBox button {
+    padding: 0px 10px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* .col {
+    width: 100%;
+  }
+  .individuals {
+    display: block;
+    margin: 0;
+    padding: 0;
+  } */
+  .updateBox {
+    width: 100%;
+  };
+  .updateBox input[type="email"] {
+    border-radius: 6px 0 0 6px;
+    background-color: #fff;
+    padding: 3px;
+    font-size: 6px;
+    padding: 2px;
+    width: auto;
+  }
+  .updateBox button {
+    padding: 0px 5px;
+    font-size: 8px;
+    width: auto;
+  }
+}
+
+
+@media screen and (max-width: 760px) {
+  /* .col {
+    width: 100%;
+  }
+  .individuals {
+    display: block;
+    margin: 0;
+    padding: 0;
+  } */
+  .updateBox {
+    width: 100%;
+  };
+  .updateBox input[type="email"] {
+    border-radius: 6px 0 0 6px;
+    background-color: #fff;
+    padding: 3px;
+    font-size: 6px;
+    padding: 2px;
+    width: auto;
+  }
+  .updateBox button {
+    padding: 0px 5px;
+    font-size: 8px;
+    width: fit-content;
+  }
+}
+
+
+@media screen and (max-width: 500px){
+
+  .productImg img {
+    height: 200px;
+  }
+  .productContent {
+    width: 300px;
+  }
+}
